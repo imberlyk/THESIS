@@ -36,7 +36,7 @@ canvas {
 }
 
 .abstract {
-  width: 100%; 
+  width: 100vw; 
   padding: 20px; 
   z-index: 6;
   display: block;
@@ -61,6 +61,7 @@ canvas {
 .ABS {
   font-size: 5vh;
   color: rgb(0, 0, 0);
+  width: 100vw;
   font-family: 'BerzulisPizius';
   text-align: center; 
 }
