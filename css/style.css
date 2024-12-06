@@ -41,7 +41,7 @@ canvas {
   z-index: 6;
   display: block;
   position: relative; 
-  background-color: rgb(255, 18, 223);
+  background-color: rgb(246, 255, 0);;
   color: white;
   font-family: 'BerzulisPizius', sans-serif;
 }
@@ -72,7 +72,7 @@ canvas {
     margin: 20px auto; 
     width: 80%; 
     color: rgb(0, 0, 0);
-    font-size: 90px;
+    font-size: 5em;
     font-family: 'arial';
     text-align: left;
     line-height: 1.5;
