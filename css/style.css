@@ -44,7 +44,7 @@ canvas {
 }
 
 .abstract {
-  width: 100vw; 
+  min-width: 100vw; 
   padding: 20px; 
   z-index: 6;
   display: block;
