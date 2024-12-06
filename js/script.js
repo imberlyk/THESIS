@@ -24,7 +24,7 @@ uniform float time;
 #define T (-mod(time, 240.))
 #define S smoothstep
 #define rot(a) mat2(cos(a), -sin(a), sin(a), cos(a))
-#define hue(a) (.24 + .4 * cos(10.3 * (a) + vec3(0, 20, 0)))
+#define hue(a) (.24 + .4 * cos(10.3 * (a) + vec3(0, 0, 0)))
 
 float syl(vec3 p, float s) {
     return length(p) - s;

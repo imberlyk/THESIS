@@ -29,6 +29,7 @@ canvas {
 .HEAD {
   width: 100%; 
   height: 100vh;
+  mix-blend-mode: difference;
   z-index: 5;
   position: relative; 
   background-color: transparent;
@@ -40,14 +41,19 @@ canvas {
   z-index: 6;
   display: block;
   position: relative; 
-  background-color: rgb(177, 242, 176);
+  background-color: rgb(255, 18, 223);
   color: white;
   font-family: 'BerzulisPizius', sans-serif;
 }
 
 .WORMHOLES {
   font-size: 5vh;
-  color: white;
+  position: absolute;
+  top: 35vh;
+  mix-blend-mode: difference;
+  width: 100vw;
+  color:rgb(246, 255, 0);
+  text-align: center; 
   font-family: 'BerzulisPizius';
   text-align: center;
 }
@@ -62,6 +68,7 @@ canvas {
 
 .ABSTEXT {
 
+
     margin: 20px auto; 
     width: 80%; 
     color: rgb(0, 0, 0);
@@ -71,4 +78,7 @@ canvas {
     line-height: 1.5;
   }
   
+.HEAD{
+  
+   
 }
