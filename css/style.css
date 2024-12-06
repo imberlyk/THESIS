@@ -7,6 +7,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Auth';
+  src: url('../font/authentic-sans-130.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   background-color: rgb(80, 80, 80);
   display: flex;
@@ -19,7 +27,7 @@ body {
 canvas {
   position: fixed; 
   left: 0;
-  width: 100%; /
+  width: 100%; 
   height: 100%; 
   object-fit: cover; 
   z-index: -1; 
@@ -46,6 +54,17 @@ canvas {
   font-family: 'BerzulisPizius', sans-serif;
 }
 
+.abstract2 {
+  width: 100vw; 
+  padding: 20px; 
+  z-index: 6;
+  display: block;
+  position: relative; 
+  background-color: rgb(255, 0, 255);;
+  color: white;
+  font-family: 'BerzulisPizius', sans-serif;
+}
+
 .WORMHOLES {
   font-size: 5vh;
   position: absolute;
@@ -56,6 +75,34 @@ canvas {
   text-align: center; 
   font-family: 'BerzulisPizius';
   text-align: center;
+}
+
+.name {
+  font-size: 2vh;
+  position: absolute;
+  top: 1vh;
+  left: 2vh;
+  mix-blend-mode: difference;
+  width: 100vw;
+  color:rgb(246, 255, 0);
+  text-align: left; 
+  font-family: 'Auth';
+
+
+}
+
+.project {
+  font-size: 2vh;
+  position: absolute;
+  top: 1vh;
+  right:2vh;
+  mix-blend-mode: difference;
+  width: 100vw;
+  color:rgb(246, 255, 0);
+  text-align: right; 
+  font-family: 'Auth';
+  
+
 }
 
 .ABS {
@@ -74,7 +121,7 @@ canvas {
     width: 80%; 
     color: rgb(0, 0, 0);
     font-size: 5em;
-    font-family: 'arial';
+    font-family: 'Auth';
     text-align: left;
     line-height: 1.5;
   }
