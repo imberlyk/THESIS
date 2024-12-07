@@ -65,6 +65,29 @@ canvas {
   font-family: 'BerzulisPizius', sans-serif;
 }
 
+
+.abstract3 {
+  min-width: 100vw; 
+  padding: 20px; 
+  z-index: 6;
+  display: block;
+  position: relative; 
+  background-color: rgb(246, 255, 0);;
+  color: white;
+  font-family: 'BerzulisPizius', sans-serif;
+}
+
+.abstract4 {
+  width: 100vw; 
+  padding: 20px; 
+  z-index: 6;
+  display: block;
+  position: relative; 
+  background-color: rgb(255, 0, 255);;
+  color: white;
+  font-family: 'BerzulisPizius', sans-serif;
+}
+
 .WORMHOLES {
   font-size: 5vh;
   position: absolute;
