@@ -100,7 +100,7 @@ canvas {
 }
 
 .WORMHOLES {
-  font-size: 2rem;
+  font-size: 3rem;
   position: absolute;
   top: 30vh;
   mix-blend-mode: difference;
