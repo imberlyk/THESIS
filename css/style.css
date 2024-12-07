@@ -27,7 +27,7 @@ body {
 canvas {
   position: fixed; 
   left: 0;
-  width: 100%; 
+  width: 100vw; 
   height: 100%; 
   object-fit: cover; 
   z-index: -1; 
@@ -36,7 +36,7 @@ canvas {
 
 .HEAD {
   width: 100%; 
-  height: 100vh;
+  height: 95vh;
   mix-blend-mode: difference;
   z-index: 5;
   position: relative; 
@@ -44,12 +44,13 @@ canvas {
 }
 
 .abstract {
-  min-width: 100vw; 
-  padding: 20px; 
+  width: 100vw; 
+  padding-bottom: 2vh;
   z-index: 6;
   box-sizing: border-box;
   display: block;
   position: relative; 
+  display: block;
   background-color: rgb(246, 255, 0);;
   color: white;
   font-family: 'BerzulisPizius', sans-serif;
@@ -57,9 +58,10 @@ canvas {
 
 .abstract2 {
   width: 100vw; 
-  padding: 20px; 
+ padding-bottom: 2vh;
   box-sizing: border-box;
   z-index: 6;
+  display: block;
   display: block;
   position: relative; 
   background-color: rgb(255, 0, 255);;
@@ -69,9 +71,10 @@ canvas {
 
 
 .abstract3 {
-  min-width: 100vw; 
-  padding: 20px; 
+  width: 100vw; 
+  display: block;
   z-index: 6;
+  padding-bottom: 2vh;
   box-sizing: border-box;
   position: relative; 
   background-color: rgb(246, 255, 0);;
@@ -83,6 +86,8 @@ canvas {
   width: 100vw; 
   padding: 20px; 
   z-index: 6;
+  padding-bottom: 2vh;
+
   display: block;
   position: relative; 
   background-color: rgb(255, 0, 255);;
@@ -91,9 +96,9 @@ canvas {
 }
 
 .WORMHOLES {
-  font-size: 5vh;
+  font-size: 2rem;
   position: absolute;
-  top: 35vh;
+  top: 30vh;
   mix-blend-mode: difference;
   width: 100vw;
   color:rgb(246, 255, 0);
@@ -133,23 +138,23 @@ canvas {
 .ABS {
   font-size: 5vh;
   color: rgb(0, 0, 0);
-  width: 100vw;
   font-family: 'BerzulisPizius';
-  text-align: center; 
+  text-align: left; 
+  padding-left: 8vw;
 }
 
 
 .ABSTEXT {
 
-
     margin: 20px auto; 
     width: 80%; 
     color: rgb(0, 0, 0);
-    font-size: 2vh;
+    font-size: 1.2rem; /* Use rem for better scalability */
     font-family: 'Auth';
     text-align: left;
     line-height: 1.5;
-  }
+}
+
   
 .HEAD{
   
