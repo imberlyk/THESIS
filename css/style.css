@@ -145,7 +145,7 @@ canvas {
     margin: 20px auto; 
     width: 80%; 
     color: rgb(0, 0, 0);
-    font-size: 5em;
+    font-size: 2vh;
     font-family: 'Auth';
     text-align: left;
     line-height: 1.5;
